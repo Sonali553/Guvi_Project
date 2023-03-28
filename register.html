@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/register.js"></script>
+
+</head>
+<body>
+    <div class="signupFrm">
+        <form id="signupForm" class="form1" method="post">
+          <div class="header">
+            <img src="assets/signup.svg" alt="signup" height="100" width="100"/>
+          <h1 class="title">Sign up</h1></div>
+  
+          <div class="inputContainer">
+            <label for="" class="label">User Name</label>
+            <input type="text" class="input"  name="username" id="username" placeholder="Username">
+          </div>
+          <div name="result" id="result"> </div>
+
+          <div class="inputContainer">
+            <label for="" class="label">Email</label>
+            <input type="email" class="input" id="email" name="email"  placeholder="Email">
+          </div>
+
+          <div class="inputContainer">
+            <label class="label">Password</label>
+            <input type="password" class="input"  name="password" id="password" placeholder="Password">
+          </div>
+    
+          <div class="inputContainer">
+            <label class="label">Confirm Password</label>
+            <input type="password" class="input" id="confirm_password" name="confirm_password" placeholder="confirmPassword" >
+          </div>
+      
+          <input type="submit" class="submitBtn" value="Sign up"/>
+          <p class="para-2">
+            Already have an account? <a href="login.html">Login Here</a>
+          </p>
+    
+      </form>
+    </div>
+    
+</body>
+</html>
